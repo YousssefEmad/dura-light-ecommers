@@ -23,23 +23,84 @@
 
 <body>
   <header id="header" class="header header-sticky header-sticky-smart disable-transition-all z-index-5">
-    <div class="topbar">
-		<div class="bg-primary overflow-hidden">
-			<div class="pt-4 pb-3 text-white move-text-animate fw-semibold text-nowrap">
-				<span class="text-uppercase me-16">Free shipping on all u.s</span>
-				<span class="text-uppercase me-16">We also make emails.</span>
-				<span class="text-uppercase me-16">The complete extra sale 20% off look</span>
-				<span class="text-uppercase me-16">Free shipping on all u.s</span>
-				<span class="text-uppercase me-16">We also make emails.</span>
-				<span class="text-uppercase me-16">The complete extra sale 20% off look</span>
-				<span class="text-uppercase me-16">Free shipping on all u.s</span>
-				<span class="text-uppercase me-16">We also make emails.</span>
-				<span class="text-uppercase me-16">The complete extra sale 20% off look</span>
-			</div>
-		</div>
-	</div>
+    <div class="bg-primary d-none d-xl-block">
+      <div class="container-wide container d-flex py-4">
+        <div class="w-50 d-none d-lg-block text-white">
+          <ul class="social-icons list-inline mb-0 fs-14">
+
+            <li class="list-inline-item ">
+              <a class="text-white" href="#" title="Twitter">
+                <svg class="icon">
+                  <use xlink:href="#twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="list-inline-item  ms-4">
+              <a class="text-white" href="#" title="Facebook">
+                <svg class="icon">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="list-inline-item  ms-4">
+              <a class="text-white" href="#" title="Instagram">
+                <svg class="icon">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="list-inline-item  ms-4">
+              <a class="text-white" href="#" title="Youtube">
+                <svg class="icon">
+                  <use xlink:href="#youtube"></use>
+                </svg>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="bg-primary overflow-hidden">
+          <div class="pt-4 pb-3 text-white move-text-animate fw-semibold text-nowrap">
+            <span class="text-uppercase me-16">Free shipping on all u.s</span>
+            <span class="text-uppercase me-16">We also make emails.</span>
+            <span class="text-uppercase me-16">The complete extra sale 20% off look</span>
+            <span class="text-uppercase me-16">Free shipping on all u.s</span>
+            <span class="text-uppercase me-16">We also make emails.</span>
+            <span class="text-uppercase me-16">The complete extra sale 20% off look</span>
+            <span class="text-uppercase me-16">Free shipping on all u.s</span>
+            <span class="text-uppercase me-16">We also make emails.</span>
+            <span class="text-uppercase me-16">The complete extra sale 20% off look</span>
+          </div>
+        </div>
+        <div class="w-50 d-none d-lg-block">
+          <div class="d-flex align-items-center justify-content-end text-white">
+
+            <div class="dropdown me-10">
+              <button class="btn btn-link dropdown-toggle fw-semibold text-uppercase ls-1 p-0 text-white" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">English
+              </button>
+              <div class="dropdown-menu dropdown-menu-end py-5" style="min-width: unset">
+                <a class="dropdown-item py-1" href="#">Arabic</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn btn-link dropdown-toggle fw-semibold text-uppercase ls-1 p-0 text-white" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">EGP
+              </button>
+              <div class="dropdown-menu dropdown-menu-end py-5" style="min-width: unset">
+                <a class="dropdown-item py-1" href="#">USD</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="sticky-area">
-      <div class="main-header nav navbar bg-body navbar-light navbar-expand-xl py-6 py-xl-0">
+      <div class="main-header nav navbar navbar-light navbar-expand-xl py-6 py-xl-0">
         <div class="container-wide container flex-nowrap">
           <div class="w-72px d-flex d-xl-none">
             <button class="navbar-toggler align-self-center border-0 shadow-none px-0 canvas-toggle p-4" type="button"
@@ -638,7 +699,7 @@
           <a href class="navbar-brand mx-auto">
             <img class="light-mode-img" src="assets/images/others/logo.png"
               alt="Glowing - Bootstrap 5 HTML Templates" />
-            <img class="dark-mode-img" src="assets/images/others/logo-white.png"
+            <img class="dark-mode-img" src="assets/images/others/logo-removebg-preview.png"
               alt="Glowing - Bootstrap 5 HTML Templates" /></a>
 
           <div class="icons-actions d-flex justify-content-end w-xl-50 fs-28px text-body-emphasis">
@@ -748,10 +809,6 @@
                   Beauty Inspired <br />
                   by Real Life
                 </h1>
-                <p class="hero-desc text-body-calculate fs-18px mb-11">
-                  Made using clean, non-toxic ingredients, our products are
-                  designed for everyone.
-                </p>
               </div>
               <a href="#" data-animate="fadeInUp"
                 class="btn btn-lg btn-dark btn-hover-bg-primary btn-hover-border-primary">
@@ -759,27 +816,22 @@
               </a>
             </div>
           </div>
-          <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
-            data-bg-src="assets/images/hero-slider/hero-slider-01.jpg"></div>
-          <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-            data-bg-src="assets/images/hero-slider/hero-slider-white-01.jpg"></div>
+          <div class="bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
+          style="background-image: url('assets/images/banner/banner-5.jpg');"></div>
+          <div class="bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
+            style="background-image: url('assets/images/banner/banner-1.png');"></div>
         </div>
-
         <div class="vh-100 d-flex align-items-center">
           <div class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11">
             <div class="hero-content text-start">
               <div data-animate="fadeInDown">
                 <p class="text-body-emphasis mb-8 text-uppercase fw-semibold fs-15px">
-                  New collection
+                  Essenstial Items
                 </p>
                 <h1 class="mb-7 hero-title">
-                  Get The Perfectly <br />
-                  Hydrated Skin
+                  Beauty Inspired <br />
+                  by Real Life
                 </h1>
-                <p class="hero-desc text-body-calculate fs-18px mb-11">
-                  Made using clean, non-toxic ingredients, our products are
-                  designed for everyone.
-                </p>
               </div>
               <a href="#" data-animate="fadeInUp"
                 class="btn btn-lg btn-dark btn-hover-bg-primary btn-hover-border-primary">
@@ -787,27 +839,22 @@
               </a>
             </div>
           </div>
-          <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
-            data-bg-src="assets/images/hero-slider/hero-slider-02.jpg"></div>
-          <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-            data-bg-src="assets/images/hero-slider/hero-slider-white-02.jpg"></div>
+          <div class="bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
+          style="background-image: url('assets/images/banner/banner-1.png');"></div>
+          <div class="bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
+            style="background-image: url('assets/images/banner/banner-5.jpg');"></div>
         </div>
-
         <div class="vh-100 d-flex align-items-center">
           <div class="z-index-2 container container-xxl py-21 pt-xl-10 pb-xl-11">
             <div class="hero-content text-start">
               <div data-animate="fadeInDown">
                 <p class="text-body-emphasis mb-8 text-uppercase fw-semibold fs-15px">
-                  Get the glow
+                  Essenstial Items
                 </p>
                 <h1 class="mb-7 hero-title">
-                  Be Your <br />
-                  Kind of Beauty
+                  Beauty Inspired <br />
+                  by Real Life
                 </h1>
-                <p class="hero-desc text-body-calculate fs-18px mb-11">
-                  Made using clean, non-toxic ingredients, our products are
-                  designed for everyone.
-                </p>
               </div>
               <a href="#" data-animate="fadeInUp"
                 class="btn btn-lg btn-dark btn-hover-bg-primary btn-hover-border-primary">
@@ -815,13 +862,67 @@
               </a>
             </div>
           </div>
-          <div class="lazy-bg bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
-            data-bg-src="assets/images/hero-slider/hero-slider-03.jpg"></div>
-          <div class="lazy-bg bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-            data-bg-src="assets/images/hero-slider/hero-slider-white-03.jpg"></div>
+          <div class="bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
+          style="background-image: url('assets/images/banner/banner-2.avif');"></div>
+          <div class="bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
+            style="background-image: url('assets/images/banner/banner-7.jpg');"></div>
         </div>
       </div>
     </section>
+
+    <section class="category-section bg-theam-dark">
+      <div class="container container-xxl py-14 py-lg-17">
+          	<div class="mb-13">
+        <div class="text-head text-center"  data-animate="fadeInUp"><h2 class="mb-6">Shop by Categories</h2>
+	</div>
+	<div class="row">
+	   <div class="col-lg-6" data-animate="fadeInUp">
+           <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
+
+<img class="lazy-image card-img object-fit-cover  light-mode-img" src="assets/images/banner/categ-1.jpg" width="690" height="690" alt="">
+<img class="lazy-image dark-mode-img card-img object-fit-cover " src="assets/images/banner/categ-1.jpg" width="690" height="690" alt=""><div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center"><div><a href="#" class="btn btn-white px-12">Landscape</a></div>
+	</div>
+</div>
+
+	   </div>
+	   <div class="col-lg-6 mt-9 pt-2 mt-lg-0 pt-lg-0">
+		   <div class="row">
+			   <div class="col-md-6" data-animate="fadeInUp">
+					<div class="card border-0 rounded-0 hover-zoom-in hover-shine">
+
+<img class="lazy-image card-img object-fit-cover  light-mode-img" src="assets/images/banner/categ-2.jpg" width="330" height="330" alt="">
+<img class="lazy-image dark-mode-img card-img object-fit-cover " src="assets/images/banner/categ-2.jpg" width="330" height="330" alt=""><div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center"><div><a href="#" class="btn btn-white px-12">Outdoor</a></div>
+	</div>
+</div>
+
+			   </div>
+			   <div class="col-md-6 mt-9 pt-2 mt-md-0 pt-md-0" data-animate="fadeInUp">
+				    <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
+
+<img class="lazy-image card-img object-fit-cover  light-mode-img" src="assets/images/banner/categ-4.webp" width="330" height="330" alt="">
+<img class="lazy-image dark-mode-img card-img object-fit-cover " src="assets/images/banner/categ-4.webp" width="330" height="330" alt=""><div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center"><div><a href="#" class="btn btn-white px-12">Accessories</a></div>
+	</div>
+</div>
+
+			   </div>
+		   </div>
+		   <div class="row">
+			   <div class="col-12 mt-9 pt-2" data-animate="fadeInUp">
+                   <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
+
+<img class="lazy-image card-img object-fit-cover  light-mode-img" src="assets/images/banner/categ-3.png" width="690" height="330" alt="">
+<img class="lazy-image dark-mode-img card-img object-fit-cover " src="assets/images/banner/categ-3.png" width="690" height="330" alt=""><div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center"><div><a href="#" class="btn btn-white px-12">New Arrivals</a></div>
+	</div>
+
+</div>
+
+			   </div>
+		   </div>
+	   </div>
+   </div>
+      </div>
+
+</section>
 
     <section>
       <div class="container container-xxl py-lg-17 pt-14 pb-16">
@@ -3601,7 +3702,7 @@
                   id="staySignedIn" />
                 <label class="custom-control-label text-body" for="staySignedIn">Stay signed in</label>
               </div>
-              <a href="#" class="text-secondary">Forgot your password?</a>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#ForgetModal" class="text-secondary">Forgot your password?</a>
             </div>
             <button type="submit" value="Login"
               class="btn btn-dark btn-hover-bg-primary btn-hover-border-primary w-100">
@@ -3622,6 +3723,32 @@
               class="btn btn-outline-secondary w-100 border-2x mt-0 btn-hover-bg-primary btn-hover-border-primary"><i
                 class="fab fa-google me-4" style="color: #dd4b39"></i>Google</a>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="modal" id="ForgetModal" tabindex="-1" aria-labelledby="signInModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header text-center border-0 pb-0">
+          <button type="button" class="btn-close position-absolute end-5 top-5" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+          <h3 class="modal-title w-100" id="signInModalLabel">Forgot your password?</h3>
+        </div>
+        <div class="modal-body px-sm-13 px-8">
+          <p class="text-center fs-16 mb-10">
+            Back to
+            <a href="#" data-bs-toggle="modal" data-bs-target="#signUpModal" class="text-black">Sign In</a>
+            Again
+          </p>
+          <form action="#">
+            <input name="email" type="email" class="form-control mb-5" placeholder="Your email" required />
+            <button type="submit" value="Login"
+              class="btn btn-dark btn-hover-bg-primary btn-hover-border-primary w-100">
+              Send Reset Link 
+            </button>
+          </form>
         </div>
       </div>
     </div>
@@ -3925,7 +4052,7 @@
   <div class="navbar">
     <div id="offCanvasNavBar" class="offcanvas offcanvas-start" style="--bs-offcanvas-width: 310px">
       <div class="offcanvas-header bg-body-tertiary">
-        <h3 class="offcanvas-title text-uppercase">Glowing</h3>
+        <img class="offcanvas-logo" src="assets/images/others/logo-removebg-preview.png" alt="">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <hr class="mt-0" />
