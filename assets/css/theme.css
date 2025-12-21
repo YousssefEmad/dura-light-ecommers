@@ -1,8 +1,4 @@
-/*!
-   * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
-   * Copyright 2011-2022 The Bootstrap Authors
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-   */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 :root,
 [data-bs-theme="light"] {
   --bs-black: #000;
@@ -240,6 +236,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: "El Messiri", sans-serif;
 }
 
 abbr[title] {
@@ -4545,6 +4542,11 @@ textarea.form-control-lg {
   border-color: #0b152e;
 }
 .category-section .btn:hover{
+  background-color: transparent;
+  border-color: transparent;
+  color: #0b152e;
+}
+.client-section .btn:hover{
   background-color: transparent;
   border-color: transparent;
   color: #0b152e;
@@ -29289,7 +29291,7 @@ svg.icon {
 }
 
 .color-current {
-  color: currentColor !important;
+  color: #fff !important;
 }
 
 .bg-current {
