@@ -32394,7 +32394,7 @@ ul.single-product-meta li span:first-child {
 }
 
 .rating .star {
-  color: #D3D3D3;
+  fill: #dec9b6 !important;
   display: inline-block;
 }
 
