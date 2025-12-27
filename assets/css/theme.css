@@ -8774,7 +8774,12 @@ textarea.form-control-lg {
   box-shadow: var(--bs-offcanvas-box-shadow);
   transition: var(--bs-offcanvas-transition);
 }
-
+.offcanva-fillter{
+  background-color: #fafafa;
+}
+[data-bs-theme="dark"] .offcanva-fillter {
+  background-color: #0b152e;
+}
 @media (prefers-reduced-motion: reduce) {
   .offcanvas {
     transition: none;
@@ -8877,7 +8882,9 @@ textarea.form-control-lg {
   opacity: 0.5;
   color: #2d3e6c;
 }
-
+.widget-product-price input {
+	color: #000 !important;
+}
 .placeholder.btn::before {
   display: inline-block;
   content: "";
