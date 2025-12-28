@@ -24,7 +24,7 @@
 
 <body>
 
-  <header id="header" class="header header-sticky header-sticky-smart disable-transition-all z-index-5">
+<header id="header" class="header header-sticky header-sticky-smart disable-transition-all z-index-5">
     <div class="bg-primary d-none d-xl-block">
       <div class="container-wide container d-flex py-4">
         <div class="w-50 d-none d-lg-block text-white">
@@ -701,329 +701,64 @@
             <nav class="py-4 lh-30px" aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center py-1 mb-0">
                     <li class="breadcrumb-item"><a title="Home" href="index.html">Home</a></li>
-                            <li class="breadcrumb-item"><a title="Shop" href="shop.html">Shop</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+                            <li class="breadcrumb-item"><a title="Shop" href="shop-layout-v2.html">Shop</a></li>
+                            <li class="breadcrumb-item"><a title="Shop" href="checkout.html">Check Out</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">payment confirmation</li>
                 </ol>
             </nav>
         </div>
     </div>
 </section>
-<section class="container">
-    <div class="shopping-cart">
-	<h2 class="text-center fs-2 mt-12 mb-13">Shopping Cart</h2>
-  <form class="table-responsive-md pb-8 pb-lg-10">
-		<table class="table border">
-			<thead class="bg-body-secondary">
-			<tr class="fs-15px letter-spacing-01 fw-semibold text-uppercase text-body-emphasis">
-				<th scope="col" class="fw-semibold border-1 ps-11">products</th>
-				<th scope="col" class="fw-semibold border-1">quantity</th>
-				<th colspan="2" class="fw-semibold border-1">Price</th>
-			</tr>
-			</thead>
-			<tbody>
-			
+<section class="container pb-14 pb-lg-19">
+    <div class="text-center" >
+        <h2 class="mb-6">Payment Confirmation</h2></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="tf-page-cart-checkout">
+                            <div class="d-flex align-items-center justify-content-between mb_15">
+                                <p class="fs-18">Date</p>
+                                <p>01/01/2024</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_15">
+                                <p class="fs-18">Payment method</p>
+                                <p>Visa</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_15">
+                                <p class="fs-18">Card number</p>
+                                <p>**** **** **** 9999</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_15">
+                                <p class="fs-18">Cardholder name</p>
+                                <p>Clean&More</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_15">
+                                <p class="fs-18">Email</p>
+                                <p>info@cleanandmore.com</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_15">
+                                <p class="fs-18">Phone</p>
+                                <p>0111 066 5948</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_24">
+                                <p class="fs-22 fw-6">Subtotal</p>
+                                <span class="total-value">1200.00 EGP</span>
+                            </div>
+                            <div class="d-flex gap-10">
+                                <a href="checkout.html"
+                                    class="btn btn-outline-dark w-100 mb-7">
+                                    <span>Cancel Payment</span>
+                                </a>
+                                <a href="#"
+                                    class="btn btn-dark w-100 mb-7">
+                                    <span>Confirm Payment</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			<tr class="position-relative">
-				<th scope="row" class="pe-5 ps-8 py-7 shop-product">
-					<div class="d-flex align-items-center">
-						<div class="form-check">
-							
-							<input class="form-check-input rounded-0" type="checkbox" name="check-product"
-								   value="checkbox">
-							
-						</div>
-						<div class="ms-6 me-7">
-							<img src="assets/images/products/product-2.jpg" class="lazy-image" width="75" height="100"
-								 alt="Wall Mounted LED Light">
-						</div>
-						<div class="">
-							<p class="fw-500 mb-1 text-body-emphasis">Wall Mounted LED Light</p>
-							<p class="card-text">
-								<span class="fs-13px fw-500 text-decoration-line-through pe-3">EGP 950</span>
-								<span class="fs-15px fw-bold text-body-emphasis">EGP 650</span>
-								
-							</p>
-						</div>
-					</div>
-					
-				</th>
-				<td class="align-middle">
-					<div class="input-group position-relative shop-quantity">
-						<a href="#" class="shop-down position-absolute z-index-2"><i class="far fa-minus"></i></a>
-						
-						<input name="number[]" type="number"
-							   class="form-control form-control-sm px-10 py-4 fs-6 text-center border-0" value="1"
-							   required="">
-						
-						<a href="#" class="shop-up position-absolute z-index-2"><i class="far fa-plus"></i>
-						</a>
-					</div>
-				</td>
-				<td class="align-middle">
-					<p class="mb-0 text-body-emphasis fw-bold mr-xl-11">EGP 650</p>
-				</td>
-				<td class="align-middle text-end pe-8">
-					<a href="#" class="d-block text-secondary">
-						<i class="fa fa-times"></i>
-					</a>
-				</td>
-			</tr>
-			
-
-			<tr class="position-relative">
-				<th scope="row" class="pe-5 ps-8 py-7 shop-product">
-					<div class="d-flex align-items-center">
-						<div class="form-check">
-							
-							<input class="form-check-input rounded-0" type="checkbox" name="check-product"
-								   value="checkbox">
-							
-						</div>
-						<div class="ms-6 me-7">
-							<img src="assets/images/products/product-1.jpg" class="lazy-image" width="75" height="100"
-								 alt="Natural Coconut Cleansing Oil">
-						</div>
-						<div class="">
-							<p class="fw-500 mb-1 text-body-emphasis">Wall Mounted LED Light</p>
-							<p class="card-text">
-								<span class="fs-13px fw-500 text-decoration-line-through pe-3">EGP 950</span>
-								<span class="fs-15px fw-bold text-body-emphasis">EGP 650</span>
-								
-							</p>
-						</div>
-					</div>
-					
-				</th>
-				<td class="align-middle">
-					<div class="input-group position-relative shop-quantity">
-						<a href="#" class="shop-down position-absolute z-index-2"><i class="far fa-minus"></i></a>
-						
-						<input name="number[]" type="number"
-							   class="form-control form-control-sm px-10 py-4 fs-6 text-center border-0" value="1"
-							   required="">
-						
-						<a href="#" class="shop-up position-absolute z-index-2"><i class="far fa-plus"></i>
-						</a>
-					</div>
-				</td>
-				<td class="align-middle">
-					<p class="mb-0 text-body-emphasis fw-bold mr-xl-11">EGP 650</p>
-				</td>
-				<td class="align-middle text-end pe-8">
-					<a href="#" class="d-block text-secondary">
-						<i class="fa fa-times"></i>
-					</a>
-				</td>
-			</tr>
-			
-
-			<tr class="position-relative opacity-50">
-				<th scope="row" class="pe-5 ps-8 py-7 shop-product">
-					<div class="d-flex align-items-center">
-						<div class="form-check">
-							
-							<input class="form-check-input rounded-0" type="checkbox" name="check-product"
-								   value="checkbox" disabled>
-							
-						</div>
-						<div class="ms-6 me-7">
-							<img src="assets/images/products/product-3.jpg" class="lazy-image" width="75" height="100"
-								 alt="Natural Coconut Cleansing Oil">
-						</div>
-						<div class="">
-							<p class="fw-500 mb-1 text-body-emphasis">Wall Mounted LED Light</p>
-							<p class="card-text">
-								<span class="fs-13px fw-500 text-decoration-line-through pe-3">EGP 950</span>
-								<span class="fs-15px fw-bold text-body-emphasis">EGP 650</span>
-								
-							</p>
-						</div>
-					</div>
-					
-					<div class="position-absolute top-0 start-0">
-						<span
-							class="badge rounded-0 text-uppercase fs-14px px-5 py-4 product-stock ls-1 fw-semibold p-0">out of stock</span>
-					</div>
-					
-				</th>
-				<td class="align-middle">
-					<div class="input-group position-relative shop-quantity">
-						<a href="#" class="shop-down position-absolute z-index-2"><i class="far fa-minus"></i></a>
-						
-						<input name="number[]" type="number"
-							   class="form-control form-control-sm px-10 py-4 fs-6 text-center border-0" value="1"
-							   required="" disabled>
-						
-						<a href="#" class="shop-up position-absolute z-index-2"><i class="far fa-plus"></i>
-						</a>
-					</div>
-				</td>
-				<td class="align-middle">
-					<p class="mb-0 text-body-emphasis fw-bold mr-xl-11">EGP 650</p>
-				</td>
-				<td class="align-middle text-end pe-8">
-					<a href="#" class="d-block text-secondary">
-						<i class="fa fa-times"></i>
-					</a>
-				</td>
-			</tr>
-			
-
-			<tr class="position-relative">
-				<th scope="row" class="pe-5 ps-8 py-7 shop-product">
-					<div class="d-flex align-items-center">
-						<div class="form-check">
-							
-							<input class="form-check-input rounded-0" type="checkbox" name="check-product"
-								   value="checkbox">
-							
-						</div>
-						<div class="ms-6 me-7">
-							<img src="assets/images/products/product-5.jpg" class="lazy-image" width="75" height="100"
-								 alt="Natural Coconut Cleansing Oil">
-						</div>
-						<div class="">
-							<p class="fw-500 mb-1 text-body-emphasis">Wall Mounted LED Light</p>
-							<p class="card-text">
-								<span class="fs-13px fw-500 text-decoration-line-through pe-3">EGP 950</span>
-								<span class="fs-15px fw-bold text-body-emphasis">EGP 650</span>
-								
-							</p>
-						</div>
-					</div>
-					
-				</th>
-				<td class="align-middle">
-					<div class="input-group position-relative shop-quantity">
-						<a href="#" class="shop-down position-absolute z-index-2"><i class="far fa-minus"></i></a>
-						
-						<input name="number[]" type="number"
-							   class="form-control form-control-sm px-10 py-4 fs-6 text-center border-0" value="1"
-							   required="">
-						
-						<a href="#" class="shop-up position-absolute z-index-2"><i class="far fa-plus"></i>
-						</a>
-					</div>
-				</td>
-				<td class="align-middle">
-					<p class="mb-0 text-body-emphasis fw-bold mr-xl-11">EGP 650</p>
-				</td>
-				<td class="align-middle text-end pe-8">
-					<a href="#" class="d-block text-secondary">
-						<i class="fa fa-times"></i>
-					</a>
-				</td>
-			</tr>
-			
-			
-			<tr>
-				<td class="pt-5 pb-10 position-relative  ps-10 left">
-					<a href="shop.html" title="Countinue Shopping"
-					   class="btn btn-outline-dark me-8 text-nowrap my-5">
-						Countinue Shopping
-					</a>
-					<button type="submit" value="Clear Shopping Cart"
-							class=" p-0 border-0 border-bottom border-secondary text-decoration-none rounded-0 my-5 fw-semibold bg-transparent btn btn-outline-dark">
-						<i class="fa fa-times me-3"></i>
-						Clear Shopping Cart
-					</button>
-				</td>
-				<td colspan="3" class="text-end pt-5 pb-10 position-relative  right pe-">
-					<button type="submit" value="Update Cart"
-							class="btn btn-outline-dark my-5">Update Cart
-					</button>
-				</td>
-			</tr>
-			</tbody>
-		</table>
-	</form>
-	<div class="row pt-8 pt-lg-11 pb-16 pb-lg-18">
-
-	<!-- Coupon -->
-	<div class="col-lg-4 pt-2">
-		<h4 class="fs-24 mb-6">Coupon Discount</h4>
-		<p class="mb-7">Enter your coupon code if you have one.</p>
-		<form>
-			<input type="text" class="form-control mb-7" placeholder="Enter coupon code here">
-			<button type="submit" class="btn btn-dark btn-hover-bg-primary btn-hover-border-primary">
-				Apply Coupon
-			</button>
-		</form>
-	</div>
-
-	<!-- Shipping -->
-	<div class="col-lg-4 pt-lg-2 pt-10">
-		<h4 class="fs-24 mb-6">Shipping Calculator</h4>
-		<form>
-			<div class="d-flex mb-5">
-				<div class="form-check me-6 me-lg-9">
-					<input class="form-check-input" type="radio" name="shipping" id="freeShipping">
-					<label class="form-check-label" for="freeShipping">
-						Free shipping
-					</label>
-				</div>
-				<div class="form-check">
-					<input class="form-check-input" type="radio" name="shipping" id="flatRate" checked>
-					<label class="form-check-label" for="flatRate">
-						Flat rate: 75 EGP
-					</label>
-				</div>
-			</div>
-
-			<div class="dropdown bg-body-secondary rounded mb-7">
-				<a href="#"
-				   class="form-select dropdown-toggle d-flex justify-content-between align-items-center text-decoration-none text-secondary"
-				   role="button" data-bs-toggle="dropdown">
-					Egypt
-				</a>
-				<div class="dropdown-menu w-100 px-0 py-4">
-					<a class="dropdown-item px-6 py-4" href="#">Cairo</a>
-					<a class="dropdown-item px-6 py-4" href="#">Giza</a>
-					<a class="dropdown-item px-6 py-4" href="#">Alexandria</a>
-					<a class="dropdown-item px-6 py-4" href="#">New Cairo</a>
-					<a class="dropdown-item px-6 py-4" href="#">6th of October</a>
-				</div>
-			</div>
-
-			<input type="text" class="form-control mb-7" placeholder="State / Governorate" required>
-			<input type="text" class="form-control mb-7" placeholder="City" required>
-			<input type="text" class="form-control mb-7" placeholder="Postal Code">
-
-			<button type="submit" class="btn btn-dark btn-hover-bg-primary btn-hover-border-primary">
-				Update Total
-			</button>
-		</form>
-	</div>
-
-	<!-- Total -->
-	<div class="col-lg-4 pt-lg-0 pt-11">
-		<div class="card border-0" style="box-shadow: 0 0 10px 0 rgba(0,0,0,0.1)">
-			<div class="card-body px-9 pt-6">
-				<div class="d-flex align-items-center justify-content-between mb-5">
-					<span>Subtotal:</span>
-					<span class="fw-bold">1,450 EGP</span>
-				</div>
-				<div class="d-flex align-items-center justify-content-between">
-					<span>Shipping:</span>
-					<span class="fw-bold">75 EGP</span>
-				</div>
-			</div>
-			<div class="card-footer bg-transparent px-0 pt-5 pb-7 mx-9">
-				<div class="d-flex align-items-center justify-content-between fw-bold mb-7">
-					<span>Total Price:</span>
-					<span class="fs-4 fw-bold">1,525 EGP</span>
-				</div>
-				<a href="checkout.html"
-				   class="btn w-100 btn-dark btn-hover-bg-primary btn-hover-border-primary">
-					Check Out
-				</a>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-</div>
 </section>
 
 	</main>
@@ -2598,5 +2333,7 @@
       </div>
     </div>
   </div>
+
+
 </body>
 </html>

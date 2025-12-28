@@ -83,7 +83,7 @@
   --bs-link-color-rgb: 0, 0, 0;
   --bs-link-decoration: none;
   --bs-link-hover-color: #2d3e6c;
-  --bs-link-hover-color-rgb: 78, 118, 97;
+  /* --bs-link-hover-color-rgb: 78, 118, 97; */
   --bs-link-hover-decoration: underline;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -3685,12 +3685,14 @@ footer form .btn{
 }
 
 .form-control:focus {
-  color: #fff;
+  color: #000;
   background-color: var(--bs-form-control-bg);
   outline: 0;
   box-shadow: 0 0, 0 0 0 0.25rem rgb(45 62 108 / 15%);
 }
-
+[data-bs-theme="dark"] .form-control:focus {
+  color: #fff;
+}
 .form-control::-webkit-date-and-time-value {
   height: 1.625em;
 }
