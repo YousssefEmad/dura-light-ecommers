@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport"
@@ -11,26 +11,22 @@
   <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
   <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
   <link rel="stylesheet" href="assets/vendors/slick/slick.css" />
-  <link rel="stylesheet" href="assets/vendors/mapbox-gl/mapbox-gl.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?
-  family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
-  family=El+Messiri:wght@400..700&
-  display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/theme.css" />
 </head>
 
 <body>
   <header id="header" class="header header-sticky header-sticky-smart disable-transition-all z-index-5">
-    <div class="bg-primary d-none d-xl-block">
+    <div class="d-none d-xl-block">
       <div class="container-wide container d-flex py-4">
-        <div class="w-50 d-none d-lg-block text-white">
+        <div class="w-50 d-none d-lg-block text-black">
           <ul class="social-icons list-inline mb-0 fs-14">
 
             <li class="list-inline-item ">
-              <a class="text-white" href="#" title="Twitter">
+              <a class="text-black" href="#" title="Twitter">
                 <svg class="icon">
                   <use xlink:href="#twitter"></use>
                 </svg>
@@ -38,7 +34,7 @@
             </li>
 
             <li class="list-inline-item  ms-4">
-              <a class="text-white" href="#" title="Facebook">
+              <a class="text-black" href="#" title="Facebook">
                 <svg class="icon">
                   <use xlink:href="#facebook"></use>
                 </svg>
@@ -46,7 +42,7 @@
             </li>
 
             <li class="list-inline-item  ms-4">
-              <a class="text-white" href="#" title="Instagram">
+              <a class="text-black" href="#" title="Instagram">
                 <svg class="icon">
                   <use xlink:href="#instagram"></use>
                 </svg>
@@ -54,7 +50,7 @@
             </li>
 
             <li class="list-inline-item  ms-4">
-              <a class="text-white" href="#" title="Youtube">
+              <a class="text-black" href="#" title="Youtube">
                 <svg class="icon">
                   <use xlink:href="#youtube"></use>
                 </svg>
@@ -62,8 +58,8 @@
             </li>
           </ul>
         </div>
-        <div class="bg-primary overflow-hidden">
-          <div class="pt-4 pb-3 text-white move-text-animate fw-semibold text-nowrap">
+        <div class="overflow-hidden">
+          <div class="pt-4 pb-3 text-black move-text-animate fw-semibold text-nowrap">
             <span class="text-uppercase me-16">Free shipping on all u.s</span>
             <span class="text-uppercase me-16">We also make emails.</span>
             <span class="text-uppercase me-16">The complete extra sale 20% off
@@ -79,10 +75,10 @@
           </div>
         </div>
         <div class="w-50 d-none d-lg-block">
-          <div class="d-flex align-items-center justify-content-end text-white">
+          <div class="d-flex align-items-center justify-content-end text-black">
 
             <div class="dropdown me-10">
-              <button class="btn btn-link dropdown-toggle fw-semibold text-uppercase ls-1 p-0 text-white" type="button"
+              <button class="btn btn-link dropdown-toggle fw-semibold text-uppercase ls-1 p-0 text-black" type="button"
                 data-bs-toggle="dropdown" aria-expanded="false">English
               </button>
               <div class="dropdown-menu dropdown-menu-end py-5" style="min-width: unset">
@@ -91,7 +87,7 @@
             </div>
 
             <div class="dropdown">
-              <button class="btn btn-link dropdown-toggle fw-semibold text-uppercase ls-1 p-0 text-white" type="button"
+              <button class="btn btn-link dropdown-toggle fw-semibold text-uppercase ls-1 p-0 text-black" type="button"
                 data-bs-toggle="dropdown" aria-expanded="false">EGP
               </button>
               <div class="dropdown-menu dropdown-menu-end py-5" style="min-width: unset">
@@ -113,7 +109,11 @@
             </button>
           </div>
 
-          <div class="d-none d-xl-flex w-xl-50">
+          <a href="index.html" class="navbar-brand">
+            <img class="light-mode-img" src="assets/images/others/logo.png"
+              alt="Glowing - Bootstrap 5 HTML Templates" /></a>
+
+          <div class="d-none d-xl-flex">
             <ul class="navbar-nav">
               <li
                 class="nav-item transition-all-xl-1 py-11 me-xxl-12 me-xl-10 dropdown dropdown-hover dropdown-fullwidth position-static">
@@ -267,7 +267,7 @@
                       </div>
 
                       <!-- Banner -->
-                      <div class="col d-xxl-block d-none megamenu-shop-banner" data-bs-theme="light">
+                      <div class="col d-xxl-block d-none megamenu-shop-banner"  >
                         <div class="card border-0 mt-4">
                           <img src="assets/images/products/product-8.jpg" alt="bg mega menu" class="card-img" />
                           <div class="card-img-overlay d-flex flex-column mx-2 px-9 py-6">
@@ -424,13 +424,8 @@
             </ul>
           </div>
 
-          <a href="index.html" class="navbar-brand mx-auto">
-            <img class="light-mode-img" src="assets/images/others/logo.png"
-              alt="Glowing - Bootstrap 5 HTML Templates" />
-            <img class="dark-mode-img" src="assets/images/others/logo-removebg-preview.png"
-              alt="Glowing - Bootstrap 5 HTML Templates" /></a>
 
-          <div class="icons-actions d-flex justify-content-end w-xl-50 fs-28px text-body-emphasis">
+          <div class="icons-actions d-flex justify-content-end fs-28px text-body-emphasis">
             <div class="px-xl-5 d-inline-block">
               <a class="lh-1 color-inherit text-decoration-none" href="#" data-bs-toggle="offcanvas"
                 data-bs-target="#searchModal" aria-controls="searchModal" aria-expanded="false">
@@ -467,54 +462,6 @@
                   class="badge bg-dark text-white position-absolute top-0 start-100 translate-middle mt-4 rounded-circle fs-13px p-0 square"
                   style="--square-size: 18px">3</span>
               </a>
-            </div>
-
-            <div class="color-modes position-relative ps-5">
-              <a class="bd-theme btn btn-link nav-link dropdown-toggle d-inline-flex align-items-center justify-content-center text-primary p-0 position-relative rounded-circle"
-                href="#" aria-expanded="true" data-bs-toggle="dropdown" data-bs-display="static"
-                aria-label="Toggle theme (light)">
-                <svg class="bi my-1 theme-icon-active">
-                  <use href="#sun-fill"></use>
-                </svg>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end fs-14px" data-bs-popper="static">
-                <li>
-                  <button type="button" class="dropdown-item d-flex align-items-center active"
-                    data-bs-theme-value="light" aria-pressed="true">
-                    <svg class="bi me-4 opacity-50 theme-icon">
-                      <use href="#sun-fill"></use>
-                    </svg>
-                    Light
-                    <svg class="bi ms-auto d-none">
-                      <use href="#check2"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li>
-                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
-                    aria-pressed="false">
-                    <svg class="bi me-4 opacity-50 theme-icon">
-                      <use href="#moon-stars-fill"></use>
-                    </svg>
-                    Dark
-                    <svg class="bi ms-auto d-none">
-                      <use href="#check2"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li>
-                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
-                    aria-pressed="false">
-                    <svg class="bi me-4 opacity-50 theme-icon">
-                      <use href="#circle-half"></use>
-                    </svg>
-                    Auto
-                    <svg class="bi ms-auto d-none">
-                      <use href="#check2"></use>
-                    </svg>
-                  </button>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -701,7 +648,6 @@
     </div>
   </div>
 
-
   <main id="content" class="wrapper layout-page">
     <section class="banner-slide">
       <div class="slick-slider hero hero-header-01"
@@ -728,8 +674,6 @@
           </div>
           <div class="bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
             style="background-image: url('assets/images/banner/banner-5.jpg');"></div>
-          <div class="bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-            style="background-image: url('assets/images/banner/banner-7.jpg');"></div>
         </div>
 
         <!-- Slide 02 -->
@@ -744,8 +688,6 @@
           </div>
           <div class="bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
             style="background-image: url('assets/images/banner/banner-7.jpg');"></div>
-          <div class="bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-            style="background-image: url('assets/images/banner/banner-5.jpg');"></div>
         </div>
 
         <!-- Slide 03 -->
@@ -760,8 +702,6 @@
           </div>
           <div class="bg-overlay position-absolute z-index-1 w-100 h-100 light-mode-img"
             style="background-image: url('assets/images/banner/banner-2.avif');"></div>
-          <div class="bg-overlay dark-mode-img position-absolute z-index-1 w-100 h-100"
-            style="background-image: url('assets/images/banner/banner-7.jpg');"></div>
         </div>
 
       </div>
@@ -785,9 +725,7 @@
               <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
 
                 <img class="lazy-image card-img object-fit-cover  light-mode-img" src="assets/images/banner/categ-1.jpg"
-                  width="690" height="690" alt>
-                <img class="lazy-image dark-mode-img card-img object-fit-cover " src="assets/images/banner/categ-1.jpg"
-                  width="690" height="690" alt>
+                  width="690" alt>
                 <div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center">
                   <div><a href="shop.html" class="btn btn-white px-12">Landscape</a></div>
                 </div>
@@ -801,8 +739,6 @@
 
                     <img class="lazy-image card-img object-fit-cover  light-mode-img"
                       src="assets/images/banner/categ-2.jpg" width="330" height="330" alt>
-                    <img class="lazy-image dark-mode-img card-img object-fit-cover "
-                      src="assets/images/banner/categ-2.jpg" width="330" height="330" alt>
                     <div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center">
                       <div><a href="shop.html" class="btn btn-white px-12">Outdoor</a></div>
                     </div>
@@ -813,8 +749,6 @@
                   <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
 
                     <img class="lazy-image card-img object-fit-cover  light-mode-img"
-                      src="assets/images/banner/categ-4.webp" width="330" height="330" alt>
-                    <img class="lazy-image dark-mode-img card-img object-fit-cover "
                       src="assets/images/banner/categ-4.webp" width="330" height="330" alt>
                     <div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center">
                       <div><a href="shop.html" class="btn btn-white px-12">Indoor</a></div>
@@ -828,8 +762,6 @@
                   <div class="card border-0 rounded-0 hover-zoom-in hover-shine">
 
                     <img class="lazy-image card-img object-fit-cover  light-mode-img"
-                      src="assets/images/banner/categ-3.png" width="690" height="330" alt>
-                    <img class="lazy-image dark-mode-img card-img object-fit-cover "
                       src="assets/images/banner/categ-3.png" width="690" height="330" alt>
                     <div class="card-img-overlay d-inline-flex flex-column p-8 justify-content-end text-center">
                       <div><a href="shop.html" class="btn btn-white px-12">New
@@ -861,8 +793,6 @@
             <div class="card border-0 banner-offer rounded-0 hover-zoom-in hover-shine h-100">
               <img class="lazy-image h-100 w-100 img-fluid object-fit-cover card-img banner-02 light-mode-img"
                 src="assets/images/banner/offer-banner (1).jpg" alt="Illuminate Your Space" />
-              <img class="lazy-image h-100 dark-mode-img w-100 img-fluid object-fit-cover card-img banner-02"
-                src="assets/images/banner/offer-banner (2).jpg" alt="Illuminate Your Space" />
               <div class="card-img-overlay p-12 m-2 d-inline-flex flex-column justify-content-end">
                 <h3 class="card-title mb-0 fs-2 text-white">
                   Illuminate Your Space
@@ -1167,7 +1097,7 @@
                 <div class="card card-product grid-1 bg-transparent border-0" data-animate="fadeInUp">
                   <figure class="card-img-top position-relative mb-7 overflow-hidden">
                     <a href="product-details-v1.html" class="hover-zoom-in d-block" title="Wall Mounted LED Light">
-                      <img src="assets/images/products/product-4.jpg" class="img-fluid lazy-image w-100"
+                      <img src="assets/images/products/product-3.jpg" class="img-fluid lazy-image w-100"
                         alt="Wall Mounted LED Light" />
                     </a>
                     <div class="position-absolute product-flash z-index-2">
@@ -1261,7 +1191,7 @@
                 <div class="card card-product grid-1 bg-transparent border-0" data-animate="fadeInUp">
                   <figure class="card-img-top position-relative mb-7 overflow-hidden">
                     <a href="product-details-v1.html" class="hover-zoom-in d-block" title="Elegant Chandelier">
-                      <img src="assets/images/products/product-5.jpg" class="img-fluid lazy-image w-100"
+                      <img src="assets/images/products/product-3.jpg" class="img-fluid lazy-image w-100"
                         alt="Elegant Chandelier" />
                     </a>
                     <div class="position-absolute product-flash z-index-2">
@@ -1358,7 +1288,7 @@
                 <div class="card card-product grid-1 bg-transparent border-0" data-animate="fadeInUp">
                   <figure class="card-img-top position-relative mb-7 overflow-hidden">
                     <a href="product-details-v1.html" class="hover-zoom-in d-block" title="Smart Desk Lamp">
-                      <img src="assets/images/products/product-6.jpg" class="img-fluid lazy-image w-100"
+                      <img src="assets/images/products/product-3.jpg" class="img-fluid lazy-image w-100"
                         alt="Smart Desk Lamp" />
                     </a>
                     <div class="position-absolute d-flex z-index-2 product-actions horizontal">
@@ -3765,8 +3695,6 @@
           <div class="card border-0 rounded-0 banner-01 hover-zoom-in hover-shine">
             <img class="lazy-image  card-img light-mode-img" src="assets/images/products/product-9.jpg" width="690"
               height="500" alt="Intensive Glow C&#43; Serum" />
-            <img class="lazy-image dark-mode-img  card-img" src="assets/images/products/product-9.jpg" width="690"
-              height="500" alt="Intensive Glow C&#43; Serum" />
             <div class="card-img-overlay d-inline-flex flex-column p-md-12 m-md-2 p-8">
               <h6 class="card-subtitle ls-1 fs-15px mb-5 fw-semibold text-body-calculate">
                 NEW COLLECTION
@@ -3784,8 +3712,6 @@
         <div class="col-lg-6" data-animate="fadeInUp">
           <div class="card border-0 rounded-0 banner-01 hover-zoom-in hover-shine">
             <img class="lazy-image card-img light-mode-img" src="assets/images/products/product-10.jpg" width="690"
-              height="500" alt="25% off Everything" />
-            <img class="lazy-image dark-mode-img card-img" src="assets/images/products/product-10.jpg" width="690"
               height="500" alt="25% off Everything" />
             <div class="card-img-overlay d-inline-flex flex-column p-md-12 m-md-2 p-8">
               <h3 class="card-title color-current lh-45px fs-3 pe-15">
@@ -4067,8 +3993,6 @@
               <div class="image-box-4">
                 <img class="lazy-image img-fluid lazy-image light-mode-img" src="assets/images/products/product-11.jpg"
                   width="960" height="640" alt />
-                <img class="lazy-image dark-mode-img img-fluid lazy-image" src="assets/images/products/product-11.jpg"
-                  width="960" height="640" alt />
               </div>
               <div class="card-body text-body-emphasis text-center pt-9 mt-2">
                 <h5 class="card-titletext-decoration-none fs-4 mb-4 d-block fw-semibold">
@@ -4084,7 +4008,6 @@
               <div class="image-box-4">
                 <img class="lazy-image img-fluid lazy-image light-mode-img" src="assets/images/products/product-12.jpg"
                   width="960" height="640" alt />
-                <img class="lazy-image dark-mode-img img-fluid lazy-image" src="#" width="960" height="640" alt />
               </div>
               <div class="card-body text-body-emphasis text-center pt-9 mt-2">
                 <h5 class="card-titletext-decoration-none fs-4 mb-4 d-block fw-semibold">
@@ -4175,14 +4098,11 @@
   <script src="assets/vendors/lightgallery/lightgallery.min.js"></script>
   <script src="assets/vendors/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
   <script src="assets/vendors/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
-  <script src="assets/vendors/lightgallery/plugins/video/lg-video.min.js"></script>
-  <script src="assets/vendors/lightgallery/plugins/vimeoThumbnail/lg-vimeo-thumbnail.min.js"></script>
   <script src="assets/vendors/isotope/isotope.pkgd.min.js"></script>
   <script src="assets/vendors/slick/slick.min.js"></script>
   <script src="assets/vendors/gsap/gsap.min.js"></script>
   <script src="assets/vendors/gsap/ScrollToPlugin.min.js"></script>
   <script src="assets/vendors/gsap/ScrollTrigger.min.js"></script>
-  <script src="assets/vendors/mapbox-gl/mapbox-gl.js"></script>
   <script src="assets/js/theme.min.js"></script>
   <script> $('#footer').load('footer.html') </script>
 
@@ -5741,7 +5661,5 @@
     <img src="assets/images/banner/banner-1-happy.png" alt="Happy New Year">
   </div>
 </div>
-
 </body>
-
 </html>
