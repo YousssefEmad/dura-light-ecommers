@@ -58,8 +58,8 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 126, 126, 126;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Cairo", sans-serif;
-  --bs-font-monospace: "Cairo", sans-serif;
+  --bs-font-sans-serif: normal 14px/1.65 "HL-Raleway",sans-serif;
+  --bs-font-monospace: normal 14px/1.65 "HL-Raleway",sans-serif;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -507,7 +507,9 @@ progress {
 [hidden] {
   display: none !important;
 }
-
+.bg-secoundary {
+  background-color: #eae2d870;
+}
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -588,10 +590,10 @@ footer {
 }
 footer{
   h3{
-  color: #fff;
+  color: #2d3e6c;
 }
 p, a{
-  color: #fafafa !important;
+  color: #000000 !important;
 }
 } 
 footer form .btn{
@@ -4507,11 +4509,7 @@ textarea.form-control-lg {
   background-color: #0b152e;
   border-color: #0b152e;
 }
-.category-section .btn:hover{
-  background-color: transparent;
-  border-color: transparent;
-  color: #0b152e;
-}
+
 .client-section .btn:hover{
   background-color: transparent;
   border-color: transparent;
@@ -5596,7 +5594,7 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 .navbar-brand img{
-  width: 100px;
+  width: 130px;
     height: auto;
 }
 .navbar-brand:hover, .navbar-brand:focus {
@@ -32801,7 +32799,7 @@ ul.single-product-meta li span:first-child {
 }
 
 .bg-section-2 {
-  background-color: var(--bs-section-color-2);
+  background-color: #eae2d870;
 }
 
 .bg-section-3 {
