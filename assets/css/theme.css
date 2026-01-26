@@ -4509,6 +4509,13 @@ textarea.form-control-lg {
   background-color: #0b152e;
   border-color: #0b152e;
 }
+.header .btn:hover,
+.category-section .btn:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
+}
 
 .client-section .btn:hover{
   background-color: transparent;
@@ -32785,7 +32792,7 @@ ul.single-product-meta li span:first-child {
 @media (max-width: 1540px) {
   #header .nav-item > a {
   position: relative;
-  font-size: 12px !important;
+  font-size: 15px !important;
   font-weight: 700 !important;
 }
 }
