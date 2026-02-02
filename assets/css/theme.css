@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root{
   --bs-primary: #2d3e6c;
   --bs-black: #000;
@@ -58,8 +59,8 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 126, 126, 126;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: normal 14px/1.65 "HL-Raleway",sans-serif;
-  --bs-font-monospace: normal 14px/1.65 "HL-Raleway",sans-serif;
+  --bs-font-sans-serif: "Inter", sans-serif;
+  --bs-font-monospace: "Inter", sans-serif;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -153,6 +154,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 600;
   line-height: 1.3;
   color: #0b152e;
+  font-family: "Cormorant", serif;
 }
 [data-bs-theme="dark"]{
   h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -5454,6 +5456,7 @@ textarea.form-control-lg {
 }
 
 .nav-tabs {
+  background: #f6f2ee6b;
   --bs-nav-tabs-border-width: var(--bs-border-width);
   --bs-nav-tabs-border-color: var(--bs-border-color);
   --bs-nav-tabs-border-radius: var(--bs-border-radius);
@@ -12628,7 +12631,7 @@ textarea.form-control-lg {
 }
 
 .fs-3 {
-  font-size: 2.125rem !important;
+  font-size: 20px !important;
 }
 
 .fs-4 {
@@ -28954,7 +28957,9 @@ textarea.form-control-lg {
 #header .nav-item > a {
   position: relative;
   font-size: 16px !important;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
+  text-transform: capitalize !important;
+  font-style: normal;
 }
 
 #header .nav-item > a:before {
@@ -29246,10 +29251,16 @@ svg.icon {
   height: var(--square-size);
   background-color: #f2411a !important;
 }
+.card-product{
+      background-color: #eae2d870 !important;
+      padding: 15px;
+      border-radius: 7px;
+      transition: all .3s ease-in-out;
+}
 .card-product img{
   transition: all .3s ease-in-out;
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 .card-product .square{
   background-color: #2d3e6c3b !important;
@@ -30764,8 +30775,10 @@ ul.single-product-meta li span:first-child {
 }
 
 .hero .hero-title {
-  font-size: 56px;
-  line-height: 1.28;
+  font-size: 90px;
+    line-height: 1.28;
+    color: #fff;
+    font-style: italic;
 }
 
 .hero .hero-desc {
@@ -32790,6 +32803,9 @@ ul.single-product-meta li span:first-child {
 }
 }
 @media (max-width: 1540px) {
+  .card-product img{
+    height: 300px !important;
+  }
   #header .nav-item > a {
   position: relative;
   font-size: 15px !important;
@@ -33064,6 +33080,34 @@ ul.single-product-meta li span:first-child {
   opacity: 1;
   transform: scale(1);
 }
+.card-product .card-img-top {
+  position: relative;
+}
+
+.card-product .img-main,
+.card-product .img-hover {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* الصورة اللي بتظهر وقت hover */
+.card-product .img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* عند الـ hover */
+.card-product:hover .img-main {
+  opacity: 0;
+  transform: scale(1.05);
+}
+
+.card-product:hover .img-hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
 
 [data-bs-theme="dark"] .landing-ready {
   background-color: var(--bs-section-color-2);
