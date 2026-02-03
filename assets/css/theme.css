@@ -139,6 +139,9 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.color-white{
+  color: #fff;
+}
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -5487,7 +5490,7 @@ textarea.form-control-lg {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: var(--bs-nav-tabs-link-active-color);
+  color: var(--bs-nav-tabs-link-active-color) !important;
   background-color: var(--bs-nav-tabs-link-active-bg);
   border-color: var(--bs-nav-tabs-link-active-border-color);
 }
@@ -29134,12 +29137,75 @@ textarea.form-control-lg {
 #offCanvasNavBar .megamenu-shop-banner {
   display: none !important;
 }
+.b2b-banner img{
+  width: 100%;
+  height: auto;
+}
+.b2b-about h2{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+.b2b-about h2 span{
+  font-weight: 600;
+}
+.b2b-about .content{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.b2b-about img{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.des-b2b p{
+      font-family: Chalet-London1960;
+    font-size: 16px;
+    letter-spacing: .75px;
+    line-height: 1.35em;
+    text-transform: none;
+    justify-content: center;
+}
+.des-b2b h4{
+      font-size: 3.5em;
+    font-family: Chalet-NewYork1960;
+    letter-spacing: 3px;
+    color: #000;
+    margin-bottom: .5em;
+}
 .megamenu-shop h6 span{
     font-weight: 400;
     font-size: 10px;
     letter-spacing: 0px;
     text-decoration: underline;
 }
+.icon-box-icon img{
+  display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
+.vist-section{
+      background-color: #131825;
+}
+.vist-section img{
+  width: 100%;
+  height: auto;
+  margin-top: -60px;
+}
+.vist-section .content-vist{
+  padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+.vist-section .content-vist h3{
+  color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.vist-section .content-vist{}
 #offCanvasNavBar .dropdown-toggle::after {
   align-self: center;
 }
@@ -33258,6 +33324,13 @@ ul.single-product-meta li span:first-child {
       right: 0;
       width: auto;
       height: 100%;
+    }
+    .show-room-section .pl-5{
+      padding-inline-start: 50px;
+    }
+    .show-room-section img{
+      height: 600px;
+      width: 100%;
     }
 [data-bs-theme="dark"] .landing-ready {
   background-color: var(--bs-section-color-2);
