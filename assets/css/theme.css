@@ -32888,7 +32888,8 @@ ul.single-product-meta li span:first-child {
 .category-section .card-img-overlay .px-12{
   padding-inline-end: 15px !important;
         padding-inline-start: 15px !important;
-        font-size: 12px;
+        font-size: 16px;
+        font-weight: 700;
 }
   .card-product img{
     height: 300px !important;
