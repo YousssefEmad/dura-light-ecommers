@@ -29009,7 +29009,7 @@ textarea.form-control-lg {
 #header .nav-item .megamenu-shop a,
 #header .nav-item .megamenu-home a,
 #header .nav-item .menumega-docs a {
-  color: var(--bs-body-color);
+  color:#000000c5;
 }
 
 .header-14 .navbar-toggler {
@@ -33370,3 +33370,33 @@ ul.single-product-meta li span:first-child {
     text-align: right;
 }
 } 
+.wrapper-icone {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  z-index: 10;
+}
+
+.wrapper-icone .icon {
+  position: relative;
+  background-color: #f6f2ee;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 4px;
+  width: 50px;
+  height: 50px;
+  font-size: 23px;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.wrapper-icone .icon span a i{
+  color: #131825;
+}
