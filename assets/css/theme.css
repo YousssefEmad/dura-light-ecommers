@@ -126,7 +126,9 @@
     scroll-behavior: smooth;
   }
 }
-
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -32962,7 +32964,7 @@ ul.single-product-meta li span:first-child {
   }
   #header .nav-item > a {
   position: relative;
-  font-size: 15px !important;
+  font-size: 14px !important;
   font-weight: 700 !important;
 }
 }
@@ -33447,4 +33449,18 @@ ul.single-product-meta li span:first-child {
   height: auto;
   object-fit: cover;
   margin-bottom: 50px;
+}
+.img-book-1{
+
+width: 100%;
+
+height: 580px;
+}
+.img-book-2{
+  
+width: 100%;
+  
+height: 670px;
+  
+padding-top: 60px;
 }
